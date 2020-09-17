@@ -8,6 +8,7 @@ import {
   Button,
   Switch,
   TextInput,
+  StyleSheet
 } from "react-native";
 
 export default class Blank extends React.Component {
