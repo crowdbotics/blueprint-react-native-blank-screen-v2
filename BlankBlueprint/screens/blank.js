@@ -8,13 +8,17 @@ import {
   Button,
   Switch,
   TextInput,
-  StyleSheet
+  StyleSheet,
 } from "react-native";
 
 export default class Blank extends React.Component {
   state = {};
 
-  render = () => <View style={styles.container}></View>;
+  render = () => (
+    <View style={styles.container}>
+      <Text>This is your new component</Text>
+    </View>
+  );
 }
 
 const styles = StyleSheet.create({
