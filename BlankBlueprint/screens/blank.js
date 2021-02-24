@@ -16,6 +16,7 @@ import Icon from 'react-native-vector-icons/FontAwesome';
 import Slider from '@react-native-community/slider';
 import { CheckBox } from 'react-native-elements';
 import {SlideMenuIcon} from '../../../navigator/slideMenuIcon';
+import { widthPercentageToDP as wp } from 'react-native-responsive-screen';
 
 export default class Blank extends React.Component {
   static navigationOptions = ({navigation}) => {
